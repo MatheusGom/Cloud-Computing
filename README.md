@@ -13,11 +13,13 @@ Projeto desenvolvido para a disciplina de Cloud Computing, demonstrando deploy d
 ## 📁 Estrutura do Projeto
 ```
 Cloud-Computing/
+├── index.html              # Página principal (raiz)
 ├── front-end/
-│   ├── atividade-01.html    # Página principal
-│   ├── Matheus-Gomes.png    # Foto do perfil
-│   └── Apresentacao.mp4     # Vídeo de apresentação
+│   ├── atividade-01.html   # Versão original
+│   ├── Matheus-Gomes.png   # Foto do perfil
+│   └── Apresentacao.mp4    # Vídeo de apresentação
 ├── README.md
+├── vercel.json            # Configuração do Vercel
 └── LICENSE
 ```
 
@@ -35,10 +37,10 @@ Cloud-Computing/
 1. Clone o repositório:
 ```bash
 git clone [URL_DO_SEU_REPO]
-cd Cloud-Computing/front-end
+cd Cloud-Computing
 ```
 
-2. Abra o arquivo `atividade-01.html` em seu navegador ou use um servidor local:
+2. Abra o arquivo `index.html` em seu navegador ou use um servidor local:
 ```bash
 # Usando Python
 python -m http.server 8000
