@@ -7,36 +7,31 @@ Projeto desenvolvido para a disciplina de Cloud Computing, demonstrando deploy d
 - HTML5
 - CSS3
 - JavaScript
-- Git/GitHub
-- Vercel (PaaS)
+- Vercel
 
 ## 📁 Estrutura do Projeto
 ```
 Cloud-Computing/
-├── index.html              # Página principal (raiz)
+├── index.html
 ├── front-end/
-│   ├── atividade-01.html   # Versão original
-│   ├── Matheus-Gomes.png   # Foto do perfil
-│   └── Apresentacao.mp4    # Vídeo de apresentação
+│   ├── atividade-01.html
+│   ├── Matheus-Gomes.png
+│   └── Apresentacao.mp4
 ├── README.md
-├── vercel.json            # Configuração do Vercel
+├── vercel.json
 └── LICENSE
 ```
 
 ## 🎯 Funcionalidades
-- Página de currículo pessoal responsiva
-- Design moderno com tema escuro
-- Seções: Perfil, Histórico Profissional, Hobbies, Soft Skills e Links
-- Integração com mapas do Google
-- Reprodução de vídeo de apresentação
+- Página de currículo pessoal
 
 ## 🌐 Deploy
-**Link da aplicação:** [Adicionar link do Vercel aqui após deploy]
+**Link da aplicação:** https://cloud-computing-1q97.vercel.app/
 
 ## 📝 Como Executar Localmente
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_SEU_REPO]
+git clone https://github.com/MatheusGom/Cloud-Computing.git
 cd Cloud-Computing
 ```
 
